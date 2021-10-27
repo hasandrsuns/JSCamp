@@ -25,3 +25,11 @@ for (let i = 0; i < konutKredileri.length; i++) {
     console.log(konutKredileri[i])
     
 }
+
+let student = {id:1, name:"Hasan"}
+//console.log(student)
+
+function save(ogrenci, puan=10) {
+    console.log(ogrenci.name + " : " + puan)
+}
+save(student,100)
